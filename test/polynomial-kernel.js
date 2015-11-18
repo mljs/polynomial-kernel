@@ -1,6 +1,6 @@
 'use strict';
 
-var polynomialKernel = require('..');
+var PolynomialKernel = require('..');
 
 describe('polynomial kernel', function () {
     // Test taken from https://github.com/accord-net/framework/blob/development/Unit%20Tests/Accord.Tests.Statistics/Kernels/PolynomialTest.cs
@@ -21,7 +21,12 @@ describe('polynomial kernel', function () {
             [55002.06, 54353.80, 44701.08,  77635.89, 43095.88]
         ];
 
-        var matrix = polynomialKernel(data, data, {degree: 3, constant: 1});
-        Array.from(matrix).should.be.approximatelyDeep(expected, 1e-2);
+        var kernel = new PolynomialKernel({degree: 3});
+
+        for (var i = 0; i < data.length; i++) {
+            for (var j = 0; j < data.length; j++) {
+                kernel.compute(data[i], data[j]).should.be.approximately(expected[i][j], 1e-2);
+            }
+        }
     });
 });

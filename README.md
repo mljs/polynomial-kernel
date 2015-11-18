@@ -13,15 +13,17 @@ The polynomial kernel
 
 ## Usage
 
-### polynomialKernel(inputs, landmarks, options)
-
-Returns a kernel matrix
+### new PolynomialKernel(options)
 
 __Options__
 
 * `degree` - degree of the polynomial (default: 1).
 * `constant` - polynomial constant (default: 1).
 * `scale` - polynomial scale (default: 1).
+
+### kernel.compute(x, y)
+
+Returns the dot product between `x` and `y` in feature space.
 
 ## License
 
