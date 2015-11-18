@@ -1,6 +1,6 @@
 {
   "name": "ml-polynomial-kernel",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The polynomial kernel",
   "main": "polynomial-kernel.js",
   "scripts": {
