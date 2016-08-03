@@ -1,5 +1,5 @@
 {
-  "name": "ml-polynomial-kernel",
+  "name": "ml-kernel-polynomial",
   "version": "2.0.0",
   "description": "The polynomial kernel",
   "main": "polynomial-kernel.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mljs/polynomial-kernel.git"
+    "url": "git+https://github.com/mljs/kernel-polynomial.git"
   },
   "keywords": [
     "polynomial",
@@ -22,9 +22,9 @@
   "author": "Michaël Zasso",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mljs/polynomial-kernel/issues"
+    "url": "https://github.com/mljs/kernel-polynomial/issues"
   },
-  "homepage": "https://github.com/mljs/polynomial-kernel#readme",
+  "homepage": "https://github.com/mljs/kernel-polynomial#readme",
   "devDependencies": {
     "mocha": "^3.0.0",
     "mocha-better-spec-reporter": "^3.0.2",

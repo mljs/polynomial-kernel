@@ -1,4 +1,4 @@
-# ml-polynomial-kernel
+# ml-kernel-polynomial
 
   [![NPM version][npm-image]][npm-url]
   [![build status][travis-image]][travis-url]
@@ -9,7 +9,7 @@ The polynomial kernel
 
 ## Installation
 
-`$ npm install ml-polynomial-kernel`
+`$ npm install ml-kernel-polynomial`
 
 ## Usage
 
@@ -29,11 +29,11 @@ Returns the dot product between `x` and `y` in feature space.
 
   [MIT](./LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/ml-polynomial-kernel.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/ml-polynomial-kernel
-[travis-image]: https://img.shields.io/travis/mljs/polynomial-kernel/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/mljs/polynomial-kernel
-[david-image]: https://img.shields.io/david/mljs/polynomial-kernel.svg?style=flat-square
-[david-url]: https://david-dm.org/mljs/polynomial-kernel
-[download-image]: https://img.shields.io/npm/dm/ml-polynomial-kernel.svg?style=flat-square
-[download-url]: https://npmjs.org/package/ml-polynomial-kernel
+[npm-image]: https://img.shields.io/npm/v/ml-kernel-polynomial.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/ml-kernel-polynomial
+[travis-image]: https://img.shields.io/travis/mljs/kernel-polynomial/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/mljs/kernel-polynomial
+[david-image]: https://img.shields.io/david/mljs/kernel-polynomial.svg?style=flat-square
+[david-url]: https://david-dm.org/mljs/kernel-polynomial
+[download-image]: https://img.shields.io/npm/dm/ml-kernel-polynomial.svg?style=flat-square
+[download-url]: https://npmjs.org/package/ml-kernel-polynomial
